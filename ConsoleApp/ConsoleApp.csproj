@@ -43,7 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DataReader.cs" />
+    <Compile Include="ConsoleDataPrinter.cs" />
+    <Compile Include="CsvDataReader.cs" />
+    <Compile Include="CsvDataReaderExtensions.cs" />
+    <Compile Include="IDataPrinter.cs" />
+    <Compile Include="IDataReader.cs" />
+    <Compile Include="ImportedObject.cs" />
+    <Compile Include="ImportedObjectBaseClass.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

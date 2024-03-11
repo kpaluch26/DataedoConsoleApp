@@ -1,0 +1,8 @@
+- usuñ niewykorzystywane przestrzenie nazw z klas oraz zmieñ ich po³o¿enie przed definicj¹ namespace klasy
+- popraw literówkê w nazwie importowanego pliku
+- rozbij klasê DataReader, tak by przekazywaæ sposób drukowania danych za pomoc¹ odpowiedniej klasy
+- dodaj interfejs dla klasy DataReader
+- przenieœæ klasy ImportedObject oraz ImportedObjectBaseClass do osobnych plików
+- usuñ z klasy pochodnej w³aœciwoœæ Name i dodaj publiczne gettery i settery
+- wydziel sposób manipulacji importowanych danych do rozszerzenia
+- dodaj zabezpieczenie przed niepe³nym kompletem danych w importowanym wierszu
