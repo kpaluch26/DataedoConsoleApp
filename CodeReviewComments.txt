@@ -4,5 +4,7 @@
 - dodaj interfejs dla klasy DataReader
 - przenieœæ klasy ImportedObject oraz ImportedObjectBaseClass do osobnych plików
 - usuñ z klasy pochodnej w³aœciwoœæ Name i dodaj publiczne gettery i settery
+- zmieñ typ pola IsNullable oraz NumberOfChildren na kolejno boolean oraz int
+- wydziel zliczanie NumberOfChildren do osobnej funkcji
 - wydziel sposób manipulacji importowanych danych do rozszerzenia
 - dodaj zabezpieczenie przed niepe³nym kompletem danych w importowanym wierszu
